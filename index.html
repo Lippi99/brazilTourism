@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <title>Brazil tourism</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img-wrapper">
+                <img src="imagens/Brazil.jpg">
+            </div><!--img-wrapper-->
+               <audio id="song">
+                   <source src="song/tim-maia.mp3" type="audio/mp3">
+                </audio>
+                <div class="controller">
+                    <i class="fas fa-backward" onclick="backward()"></i>                    
+                    <i class="fas fa-play" onclick="play()"></i>
+                    <i class="fas fa-stop" onclick="stop()" ></i>
+                    <i class="fas fa-forward" onclick="forward()"></i>
+                 </div>                
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>        
+            <div class="banner">
+                <h1>Visit Brazil</h1>
+                <p>Come visit the 7th wonder of the world</p>
+                <br>
+               <input type="button" value="Know more">
+            </div><!--banner-->
+        </header>
+        
+        <section>
+            <div class="title-beach">
+                <h2>Visit the best beaches in the World
+                    <br>
+                    and the best resorts
+                </h2>
+            </div>
+
+            <div class="beaches-section">
+                <img onclick="enterForm()" src="imagens/ipanema.jpg">
+                <img src="imagens/iracema.jpg">
+            </div>
+
+            <div class="title-jungle">
+                <h4>Visit our Amazon</h4>
+            </div>
+
+            <div class="jungle-section">
+                <img src="imagens/amazon-snake.jpg">
+                <div class="form-jungle">
+                    <form>
+                        <p>The Amazon is the world’s largest tropical rainforest. Covering over 5.5 million square kilometres, 
+                           it’s so big that the UK and Ireland would fit into it 17 times!</p>
+                        <br>
+                        <p>The Amazon is found in South America, spanning across Brazil, Bolivia, Peru, Ecuador, Colombia, Venezuela, 
+                            Guyana, Suriname and French Guiana.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Author: Felipe Lippi</p>
+        </footer>
+        
+    </div><!--container-->
+
+
+    <script src="script.js"></script>
+
+ </body>
+</html>

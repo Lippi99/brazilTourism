@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.useBrowserPreview": true,
+    "open-in-browser.default": "chrome",
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.wait": 300,
+    "liveServer.settings.port": 5500,
+    "workbench.editorAssociations": [
+    
+    ],
+    
+}
