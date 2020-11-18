@@ -340,7 +340,7 @@ footer p{
 
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 600px){
     .welcomeToBrazil iframe{
         width: 100%;
     }
